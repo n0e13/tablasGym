@@ -1,24 +1,27 @@
 table {
-    width: 50%;
-    border-spacing: 0ch;
-}
-
-th {
-    border-width: 1px;
+    width:65%;
+    border-collapse: collapse;
+    text-align: left;
     border: 1px solid black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.85em;
 }
 
 td {
     width: 25%;
 }
 
-
 /* Selectores de clases*/
 .back-header {
     background-color: #F1F1F1;
 }
 
-.espacio-texto-celda {
-    text-align: left;
-margin: 1em;
+.celda-borde-lateral {
+    border-left: 1px solid black;
+    padding: 4px 0px 4px 8px;
+}
+
+th, .celda-borde {
+    border: 1px solid black;
+    padding: 8px;
 }
