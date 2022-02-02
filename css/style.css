@@ -1,9 +1,9 @@
 table {
-    width:65%;
+    width: 65%;
     border-collapse: collapse;
     text-align: left;
     border: 1px solid black;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.85em;
 }
 
@@ -24,4 +24,27 @@ td {
 th, .celda-borde {
     border: 1px solid black;
     padding: 8px;
+}
+
+.img-cat {
+    width: 50%;
+}
+
+.img-cat-v {
+    width: 85%;
+}
+
+.vid-cat-h {
+    width: 70%;
+}
+.vid-cat {
+    width: 45%;
+}
+
+.container {
+    display: flex;
+}
+
+.container>div {
+    flex: 1; /*grow*/
 }
